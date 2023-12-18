@@ -1,0 +1,54 @@
+:root{
+  ---color: rgb(129, 225, 46);
+}
+*,
+*:before,
+::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #467c4b;
+}
+.container{
+  width: 40%;
+  min-width: 400px;
+  position: absolute;
+  min-height: 200px;
+  transform: translate(-50%, -50%);
+  top: 30%;
+  left: 50%;
+  background-color: #fff;
+  border-radius: 0px;
+  box-shadow: #481b1b;
+}
+#infoForm{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+#button{
+  background-color: #6536cb;
+  color: #e8dddd;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+#displayInfo{
+  width: 50%;
+  min-width: 450px;
+  position: absolute;
+  min-height: 200px;
+  transform: translate(-50%, -50%);
+  top: 63%;
+  left: 50%;
+  background-color: #4f2dc9;
+  border-radius: 200px;
+  color: #eadede;
+  border: #eadede;
+  text-align: center; 
+}
